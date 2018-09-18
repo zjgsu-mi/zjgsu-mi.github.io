@@ -14,13 +14,7 @@ date:   2018-09-18 18:30:00 +0800
 
 ## 数据库连接
 
-应用程序通过数据库驱动与数据库连接，对于不同的编程语言一般会有专门的数据库驱动，请参考具体的文档了解其使用方法。下面是常见语言的数据库连接方法。
-
-- [Python][python_driver]
-- [Node.js][node.js_driver]
-- [Ruby][ruby_driver]
-- [PHP][php_driver]
-- [Java][java_driver]
+应用程序通过数据库驱动与数据库连接，对于[Python][python_driver]、 [Node.js][node.js_driver]、 [Ruby][ruby_driver]、 [PHP][php_driver]、 [Java][java_driver]等不同的编程语言一般会有相应的数据库驱动，请参考具体的文档了解其使用方法。
 
 ## 数据库迁移
 
