@@ -1,4 +1,4 @@
 ---
 layout: home
-list_title: 课程作业
+list_title: 课程内容
 ---
