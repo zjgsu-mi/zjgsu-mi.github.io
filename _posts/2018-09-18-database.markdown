@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "数据库"
+date:   2018-09-18 18:30:00 +0800
+---
+
+关于数据库的选择可以参见[上节课的内容]({{ site.baseurl }}{% post_url 2018-09-14-software-architecture %})。这里主要讲关系数据库的设计及编程实现。
+
+## ER模型
+
+[ER模型][er]即实体关系模型，是数据库系统设计的常用工具。系统开发之前可以先用ER图设计出系统的数据库模型。常用的ER图工具有[Visio][]、[Dia][]等。
+
+![er_fig][]
+
+## 数据库连接
+
+应用程序通过数据库驱动与数据库连接，对于不同的编程语言一般会有专门的数据库驱动，请参考具体的文档了解其使用方法。下面是常见语言的数据库连接方法。
+
+- [Python][python_driver]
+- [Node.js][node.js_driver]
+- [Ruby][ruby_driver]
+- [PHP][php_driver]
+- [Java][java_driver]
+
+## 数据库迁移
+
+## ORM
+
+[ORM][]即对象关系映射，它把关系数据库和面向对象技术中对象关联起来，从而方便开发。
+
+## 数据库缓存
+
+## NoSQL
+
+[orm]: https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84
+[dia]: http://dia-installer.de/
+[er]: https://zh.wikipedia.org/wiki/ER%E6%A8%A1%E5%9E%8B
+[er_fig]: /assets/images/er.png "ER图"
+[java_driver]: http://www.oracle.com/technetwork/java/javase/jdbc/index.html
+[node.js_driver]: https://github.com/sindresorhus/awesome-nodejs#database
+[php_driver]: https://github.com/ziadoz/awesome-php#database
+[python_driver]: https://github.com/vinta/awesome-python#database-drivers
+[ruby_driver]: https://github.com/markets/awesome-ruby#database-drivers
+[visio]: https://products.office.com/zh-cn/visio/flowchart-software
