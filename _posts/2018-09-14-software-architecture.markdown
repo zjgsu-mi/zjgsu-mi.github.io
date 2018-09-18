@@ -42,8 +42,13 @@ Web开发主要基于[HTML][]、[CSS][]和[Javascript][]。HTML定义了页面�
 
 近年来，Javascript发展迅速，特别是随着[ES6][]的推出，它在Web领域的作用也越来越大，随之而来的是前端的复杂度越来越高。如果前端页面比较简单，可以采用[jQuery][]等传统的JS框架。如果前端比较复杂，可以采用[React][]、[Vue][]、[Angular][]等前端框架。
 
+## BaaS
+
+随着移动互联网的发展，[BaaS][]技术也应运而生，它把后端作为一种服务来提供给用户，从而使得开发者只要专注于前端即可。本课程建议大家自己开发后端以熟悉相应的技术，如果人力实在不够可以使用[Leancloud][]、[Firebase][]、[Parse][]之类的作为后端，以减少后端的开发量。
+
 [android]: https://developer.android.com/?hl=zh-cn
 [angular]: https://angular.io/
+[baas]: https://en.wikipedia.org/wiki/Mobile_backend_as_a_service
 [beego]: https://beego.me/
 [bootstrap]: https://getbootstrap.com/
 [css]: http://www.w3school.com.cn/css3/index.ASP
@@ -52,6 +57,7 @@ Web开发主要基于[HTML][]、[CSS][]和[Javascript][]。HTML定义了页面�
 [documentdb]: https://en.wikipedia.org/wiki/Document-oriented_database
 [es6]: http://es6.ruanyifeng.com/
 [express]: https://expressjs.com/zh-cn/
+[firebase]: https://firebase.google.com/
 [flask]: http://flask.pocoo.org/
 [graphdb]: https://en.wikipedia.org/wiki/Graph_database
 [grpc]: https://grpc.io/
@@ -62,12 +68,14 @@ Web开发主要基于[HTML][]、[CSS][]和[Javascript][]。HTML定义了页面�
 [jquery]: https://jquery.com/
 [koa]: https://koajs.com/
 [kvdb]: https://en.wikipedia.org/wiki/Key-value_database
+[leancloud]: https://leancloud.cn/
 [mariadb]: https://mariadb.org/
 [memcached]: https://memcached.org/
 [mongodb]: https://github.com/mongo/mongo
 [mysql]: http://mysql.com/
 [node.js]: https://nodejs.org/en/
 [nosql]: https://zh.wikipedia.org/wiki/NoSQL
+[parse]: https://parseplatform.org/
 [php]: http://php.net/
 [postgresql]: http://www.postgresql.org/
 [rdb]: https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E6%95%B0%E6%8D%AE%E5%BA%93
