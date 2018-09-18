@@ -14,13 +14,22 @@ date:   2018-09-11 18:30:00 +0800
 
 git虽然是一个分布式的版本控制系统，但有一个中心服务器会让团队合作起来更为方便，[GitHub][github]是现在使用最为广泛的git托管服务，同时它也提供了丰富的代码评审、issue管理特性，使得团队更为方便。
 
-本课程的工程管理全部在GitHub上完成，大家要熟练使用GitHub的各项功能。
+本课程的工程管理全部在GitHub上完成，要求[熟练使用GitHub的各项功能][github_intro]。
 
-[vc]: https://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6
-[git]: https://git-scm.com/
-[git_tutor]: https://git-scm.com/book/zh/v2
-[try_git]: https://try.github.io/
+## Markdown
+
+软件开发中需要大量的文档，这些文档通常没有严格排版要求，但是要求简单并且容易进行版本控制。现在应用非常广的一种格式就是[Markdown][markdown]，本课程的所有文档要求采用Markdown进行书写，并用git进行管理。Markdown使用起来非常简单，可以参考[GitHub的Markdown教程][github_markdown]或者[Coding.net的Markdown教程（中文）][coding_markdown]。
+
+
 [awesome_git]: https://github.com/dictcp/awesome-git
 [awesome_git_cn]: https://github.com/hylerrix/awesome-git
+[coding_markdown]: https://coding.net/help/doc/project/markdown.html
+[git]: https://git-scm.com/
 [git_flow]: http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
+[git_tutor]: https://git-scm.com/book/zh/v2
 [github]: https://github.com/
+[github_intro]: https://guides.github.com/
+[github_markdown]: https://guides.github.com/features/mastering-markdown/
+[markdown]: https://zh.wikipedia.org/zh-hans/Markdown
+[try_git]: https://try.github.io/
+[vc]: https://zh.wikipedia.org/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6
