@@ -46,6 +46,10 @@ Web开发主要基于[HTML][]、[CSS][]和[Javascript][]。HTML定义了页面�
 
 随着移动互联网的发展，[BaaS][]技术也应运而生，它把后端作为一种服务来提供给用户，从而使得开发者只要专注于前端即可。本课程建议大家自己开发后端以熟悉相应的技术，如果人力实在不够可以使用[Leancloud][]、[Firebase][]、[Parse][]之类的作为后端，以减少后端的开发量。
 
+## 作业
+
+在`docs/design.md`中完成系统的架构设计。
+
 [android]: https://developer.android.com/?hl=zh-cn
 [angular]: https://angular.io/
 [baas]: https://en.wikipedia.org/wiki/Mobile_backend_as_a_service

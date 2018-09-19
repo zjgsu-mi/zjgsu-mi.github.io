@@ -30,6 +30,10 @@ REST(Representational State Transfer)最初是由[Roy Thomas Fielding提出的][
 
 与本次课相关的另一项技术是[微服务][micro_service]，它将应用程序分解为一组松耦合的服务，服务间通过RESTful API及类似技术进行通信。
 
+## 作业
+
+在`docs/api.md`中完成系统的API设计，并完成相应的代码。
+
 [awesome rest]: https://github.com/marmelab/awesome-rest
 [github api]: https://developer.github.com/v3/?
 [grpc]: https://grpc.io/

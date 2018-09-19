@@ -20,6 +20,9 @@ git虽然是一个分布式的版本控制系统，但有一个中心服务器�
 
 软件开发中需要大量的文档，这些文档通常没有严格排版要求，但是要求简单并且容易进行版本控制。现在应用非常广的一种格式就是[Markdown][]，本课程的所有文档要求采用Markdown进行书写，并用git进行管理。Markdown使用起来非常简单，可以参考[GitHub的Markdown教程][github_markdown]或者[Coding.net的Markdown教程（中文）][coding_markdown]。
 
+## 作业
+
+在工程中的`README.md`文件中完成项目信息及分组信息。
 
 [awesome_git]: https://github.com/dictcp/awesome-git
 [awesome_git_cn]: https://github.com/hylerrix/awesome-git

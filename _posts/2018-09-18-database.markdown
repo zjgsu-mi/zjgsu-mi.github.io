@@ -62,6 +62,10 @@ db.users.remove( { status: "D" } )
 db.users.drop()
 ~~~
 
+## 作业
+
+在`docs/database.md`中完成系统的数据库设计，并完成相应的代码。
+
 [active record]: https://ruby-china.github.io/rails-guides/active_record_basics.html
 [alembic]: https://pypi.org/project/alembic/
 [db_migration]: https://en.wikipedia.org/wiki/Schema_migration
