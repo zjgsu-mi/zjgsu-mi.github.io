@@ -38,7 +38,6 @@ date:   2018-09-18 18:30:00 +0800
 
 ~~~ javascript
 // MongoDB
-
 db.users.insert( {
     user_id: "abc123",
     age: 55,
