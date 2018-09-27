@@ -38,6 +38,11 @@ JavaScript用于定义页面元素的行为，它也是前端技术中发展最�
 
 更多的 JavaScript 相关资源及各种包可以参见[Awesome JavaScript][]。
 
+## 作业
+
+1. 完成前端的页面设计(HTML、CSS)
+2. 完成前端与后端的交互以及前端动态效果（JavaScript)
+
 [angular]: https://angular.io/
 [awesome css framework]: https://github.com/troxler/awesome-css-frameworks
 [awesome css]: https://github.com/awesome-css-group/awesome-css
