@@ -20,7 +20,7 @@ HTML5的更多信息可以参考[Awesome HTML5][]。
 
 CSS的全称是层叠样式表(Cascading Style Sheets)，它用于描述 HTML 文档的样式，其最新标准是CSS3。CSS中的一个核心概念是[盒模型][box-model]，理解该模型有助于理解 CSS 中和位置相关的各种参数。
 
-CSS 对于编程的支持很弱，为了更方便地写 CSS 人们开发了诸如[LESS][]、[Saas][]之类的预处理语言，它们对编程有很好的支持，并能够通过预处理生成等价的 CSS。当 CSS 规模较大时，采用这些技术能够提高CSS 的开发效率。
+CSS 对于编程的支持很弱，为了更方便地写 CSS 人们开发了诸如[LESS][]、[Sass][]之类的预处理语言，它们对编程有很好的支持，并能够通过预处理生成等价的 CSS。当 CSS 规模较大时，采用这些技术能够提高CSS 的开发效率。
 
 考虑到桌面、移动设备等各种设备的屏幕大小不一，在设计 CSS 时应采用[响应式设计技术][responsive]，使得网页在不同的设备上展现不同的外观。
 
@@ -57,7 +57,7 @@ JavaScript用于定义页面元素的行为，它也是前端技术中发展最�
 [react]: https://reactjs.org/
 [responsive]: http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html
 [sass]: https://github.com/sass/sass
-[typescritp]: https://www.typescriptlang.org/
+[typescript]: https://www.typescriptlang.org/
 [vue]: https://cn.vuejs.org/index.html
 [w3schools]: https://www.w3schools.com/
 [webgl]: https://www.html5rocks.com/en/tutorials/webgl/webgl_fundamentals/
