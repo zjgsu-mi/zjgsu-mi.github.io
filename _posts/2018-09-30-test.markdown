@@ -18,6 +18,10 @@ date:   2018-09-30 18:30:00 +0800
 
 软件测试是[持续集成][ci]中一个非常重要的组成部分。
 
+## 作业
+
+为你的代码加上单元测试，并实现自动化测试。
+
 [awesome software quality]: https://github.com/ligurio/awesome-software-quality
 [awesome test automation]: https://github.com/atinfo/awesome-test-automation
 [ci]: http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html
