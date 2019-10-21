@@ -22,7 +22,7 @@ date:   2019-10-21 09:50:00 +0800
 
 虚拟机的最大缺点在于运行的开销较大，而容器技术——特别是[Docker][]的出现弥补了这个缺点。Docker可以看作一个隔离的进程，它的开销和进程相当，同时又能满足用户对各种资源的隔离和虚拟，虽然没有虚拟机功能强大，但在系统部署方面基本满足了大部分需求。
 
-基于容器技术最热门的部署工具应该是[Kubernets][]了，它借鉴了Google构建系统的丰富经验，实现了一套功能相当强大的自动部署、自动扩展的系统。
+基于容器技术最热门的部署工具应该是[Kubernetes][]了，它借鉴了Google构建系统的丰富经验，实现了一套功能相当强大的自动部署、自动扩展的系统。
 
 此外，Docker还有[docker-compose][]、[docker-swarm][]等工具，方便开发和部署。
 
@@ -50,7 +50,7 @@ date:   2019-10-21 09:50:00 +0800
 [docker-compose]: https://docs.docker.com/compose/
 [docker-swarm]: https://docs.docker.com/engine/swarm/
 [docker]: https://www.docker.com
-[kubernets]: https://kubernetes.io/
+[kubernetes]: https://kubernetes.io/
 [openstack]: https://www.openstack.org
 [puppet]: https://puppet.com
 [vagrant]: https://www.vagrantup.com
