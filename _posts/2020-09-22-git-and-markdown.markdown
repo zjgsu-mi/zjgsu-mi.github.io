@@ -14,7 +14,7 @@ date:   2020-09-22 08:00:00 +0800
 
 git虽然是一个分布式的版本控制系统，但有一个中心服务器会让团队合作起来更为方便，[GitHub][github]是现在使用最为广泛的git托管服务，同时它也提供了丰富的代码评审、issue管理特性，使得团队更为方便。
 
-本课程的工程管理全部在GitHub上完成，要求[熟练使用GitHub的各项功能][github_intro]。
+本课程的工程管理全部在GitHub上完成，要求[熟练使用GitHub的各项功能][github_intro]。可以先看看[Git简明指南][git_intro]。
 
 ## Markdown
 
@@ -29,6 +29,7 @@ git虽然是一个分布式的版本控制系统，但有一个中心服务器�
 [coding_markdown]: https://coding.net/help/doc/project/markdown.html
 [git]: https://git-scm.com/
 [git_flow]: http://www.ruanyifeng.com/blog/2015/12/git-workflow.html
+[git_intro]: https://rogerdudler.github.io/git-guide/index.zh.html
 [git_tutor]: https://git-scm.com/book/zh/v2
 [github]: https://github.com/
 [github_intro]: https://guides.github.com/
