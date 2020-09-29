@@ -4,7 +4,7 @@ title:  "数据库"
 date:   2020-09-29 08:00:00 +0800
 ---
 
-关于数据库的选择可以参见[上节课的内容]({{ site.baseurl }}{% post_url 2019-09-09-software-architecture %})。这里主要讲关系数据库的设计及编程实现。
+关于数据库的选择可以参见[上节课的内容]({{ site.baseurl }}{% post_url 2020-09-22-software-architecture %})。这里主要讲关系数据库的设计及编程实现。
 
 ## ER模型
 
