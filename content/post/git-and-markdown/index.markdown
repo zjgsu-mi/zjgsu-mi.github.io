@@ -1,7 +1,7 @@
 ---
-layout: post
 title:  "版本控制与文档"
 date:   2020-09-22 08:00:00 +0800
+draft:  false
 ---
 
 ## git

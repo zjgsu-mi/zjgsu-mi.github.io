@@ -1,10 +1,10 @@
 ---
-layout: post
 title:  "数据库"
 date:   2020-09-29 08:00:00 +0800
+draft:  false
 ---
 
-关于数据库的选择可以参见[上节课的内容]({{ site.baseurl }}{% post_url 2019-09-09-software-architecture %})。这里主要讲关系数据库的设计及编程实现。
+关于数据库的选择可以参见[上节课的内容]({{< ref "/software-architecture" >}} "软件架构")。这里主要讲关系数据库的设计及编程实现。
 
 ## ER模型
 
@@ -71,7 +71,7 @@ db.users.drop()
 [db_migration]: https://en.wikipedia.org/wiki/Schema_migration
 [dia]: http://dia-installer.de/
 [er]: https://zh.wikipedia.org/wiki/ER%E6%A8%A1%E5%9E%8B
-[er_fig]: /assets/images/er.png "ER图"
+[er_fig]: ./er.png "ER图"
 [hibernate]: http://hibernate.org/
 [java_driver]: http://www.oracle.com/technetwork/java/javase/jdbc/index.html
 [knex]: https://knexjs.org/
@@ -79,7 +79,7 @@ db.users.drop()
 [node.js_driver]: https://github.com/sindresorhus/awesome-nodejs#database
 [odm]: https://docs.mongodb.com/ecosystem/drivers/#mongodb-odm-object-document-mapper
 [orm]: https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1%E5%85%B3%E7%B3%BB%E6%98%A0%E5%B0%84
-[orm_image]: /assets/images/orm.png "ORM"
+[orm_image]: ./orm.png "ORM"
 [php_driver]: https://github.com/ziadoz/awesome-php#database
 [python_driver]: https://github.com/vinta/awesome-python#database-drivers
 [redis]: https://redis.io/

@@ -1,5 +1,5 @@
 ---
-layout: post
+draft:  true
 title:  "传感器"
 date:   2019-10-14 09:50:00 +0800
 ---

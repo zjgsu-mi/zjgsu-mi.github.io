@@ -1,5 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
-
-/Gemfile.lock
+/public/
+/resources/_gen/

@@ -1,7 +1,7 @@
 ---
-layout: post
 title:  "软件架构"
 date:   2020-09-22 18:30:00 +0800
+draft:  false
 ---
 
 ## RESTful架构
@@ -91,7 +91,7 @@ Web开发主要基于[HTML][]、[CSS][]和[Javascript][]。HTML定义了页面�
 [rethinkdb]: https://github.com/rethinkdb/rethinkdb
 [ror]: https://rubyonrails.org/
 [rpc]: https://en.wikipedia.org/wiki/Remote_procedure_call
-[software_arch]: /assets/images/software_arch.gif "REST-based architecture"
+[software_arch]: ./software_arch.gif "REST-based architecture"
 [spring_mvc]: https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html 
 [sqlite]: https://www.sqlite.org/index.html
 [thrift]: https://thrift.apache.org/

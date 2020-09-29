@@ -1,7 +1,7 @@
 ---
-layout: post
 title:  "RESTful API"
 date:   2020-09-29 18:30:00 +0800
+draft:  false
 ---
 
 ## RESTful架构
@@ -44,11 +44,11 @@ REST(Representational State Transfer)最初是由[Roy Thomas Fielding提出的][
 [postman]: https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm
 [rest_best_practice]: https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
 [rest_best_practice_cn]: https://www.oschina.net/translate/best-practices-for-a-pragmatic-restful-api
-[rest_cs]: /assets/images/rest_cs.png "RESTful Architecture"
+[rest_cs]: ./rest_cs.png "RESTful Architecture"
 [rest_guide]: http://www.ruanyifeng.com/blog/2014/05/restful_api.html
-[rest_img]: /assets/images/rest.png "RESTful API"
+[rest_img]: ./rest.png "RESTful API"
 [rest_paper]: https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-[rpc]: /assets/images/rpc.jpg "RPC"
+[rpc]: ./rpc.jpg "RPC"
 [ruan]: http://www.ruanyifeng.com/blog/2011/09/restful.html
 [thrift]: https://thrift.apache.org/
 [xml]: https://www.w3.org/XML/

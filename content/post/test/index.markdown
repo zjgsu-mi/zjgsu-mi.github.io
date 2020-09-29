@@ -1,5 +1,5 @@
 ---
-layout: post
+draft:  true
 title:  "软件测试"
 date:   2019-09-23 18:30:00 +0800
 ---

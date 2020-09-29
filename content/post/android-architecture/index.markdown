@@ -1,5 +1,5 @@
 ---
-layout: post
+draft:  true
 title:  "Android架构"
 date:   2019-10-14 18:30:00 +0800
 ---
@@ -47,9 +47,9 @@ Clean架构提出了如下准则：
 [clean]: https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean/
 [dagger]: https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/
 [databinding]: https://github.com/googlesamples/android-architecture/tree/todo-mvvm-databinding/
-[mvcmvp]: /assets/images/mvc_mvp.jpg
+[mvcmvp]: ./mvc_mvp.jpg
 [mvp]: https://github.com/googlesamples/android-architecture/tree/todo-mvp/
-[mvp_clean]: /assets/images/mvp_clean.jpg
-[mvp_img]: /assets/images/mvp.png
+[mvp_clean]: ./mvp_clean.jpg
+[mvp_img]: ./mvp.png
 [mvvm-live]: https://github.com/googlesamples/android-architecture/tree/todo-mvvm-live/
 [rxjava]: https://github.com/googlesamples/android-architecture/tree/todo-mvp-rxjava/

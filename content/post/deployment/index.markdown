@@ -1,5 +1,5 @@
 ---
-layout: post
+draft:  true
 title:  "系统部署"
 date:   2019-10-21 09:50:00 +0800
 ---
@@ -43,10 +43,10 @@ date:   2019-10-21 09:50:00 +0800
 ![持续部署][cdp]
 
 [ansible]: https://www.ansible.com
-[cdl]: /assets/images/cdl.png
-[cdp]: /assets/images/cdp.png
+[cdl]: ./cdl.png
+[cdp]: ./cdp.png
 [chef]: https://www.chef.io
-[ci]: /assets/images/ci.png
+[ci]: ./ci.png
 [docker-compose]: https://docs.docker.com/compose/
 [docker-swarm]: https://docs.docker.com/engine/swarm/
 [docker]: https://www.docker.com
