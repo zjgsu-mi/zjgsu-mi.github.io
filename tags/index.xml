@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on 移动互联专业实践</title><link>https://mi.zjsu.xyz/tags/</link><description>Recent content in Tags on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><atom:link href="https://mi.zjsu.xyz/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 移动互联专业实践</title>
+    <link>https://mi.zjsu.xyz/tags/</link>
+    <description>Recent content in Tags on 移动互联专业实践</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor>
+    <webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><atom:link href="https://mi.zjsu.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
