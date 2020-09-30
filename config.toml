@@ -1,4 +1,4 @@
-baseURL = "https://mi.zjsu.xyz"
+baseURL = "https://mi.zjgsu.xyz"
 title = "移动互联专业实践"
 enableRobotsTXT = true
 enableEmoji = true
@@ -7,6 +7,8 @@ theme = "jane"
 hasCJKLanguage = true
 paginate = 5
 rssLimit = 20
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
 
 # Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
 pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
