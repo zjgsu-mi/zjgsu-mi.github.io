@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 20 Oct 2020 18:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Android第三方库</title><link>https://mi.zjgsu.xyz/2020/10/20/android-thirdparty/</link><pubDate>Tue, 20 Oct 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/20/android-thirdparty/</guid><description>&lt;p>在进行Android开发时（iOS也是类似），通常要用到第三方库。这些第三方库既包含&lt;a href="https://github.com/wasabeef/awesome-android-libraries">一般的库&lt;/a>，也包含&lt;a href="https://github.com/wasabeef/awesome-android-ui">第三方的UI库&lt;/a>。在选择库的时候，尽量选择那些用户较多、文档齐全的。可以参考一下这份&lt;a href="https://www.jianshu.com/p/4c28321def41">App常用第三方库整理
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 27 Oct 2020 18:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>传感器</title><link>https://mi.zjgsu.xyz/2020/10/27/sensors/</link><pubDate>Tue, 27 Oct 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/27/sensors/</guid><description>&lt;p>移动设备和PC相比，具有丰富的传感器可以用，在开发过程中适当地应用这些传感器可以使得你的App功能更加丰富、使用起来更方便。&lt;/p>
+&lt;h2 id="常用传感器">常用传感器&lt;/h2>
+&lt;p>Android支持的主要传感器如下：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>传感器&lt;/th>
+&lt;th>类型&lt;/th>
+&lt;th>描述&lt;/th>
+&lt;th>通常用途&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TYPE_ACCELEROMETER&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量x、y、z轴的加速度(包括重力加速度，m/s&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->).&lt;/td>
+&lt;td>动作检测(摇动、倾斜等).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_AMBIENT_TEMPERATURE&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量室温(°C).&lt;/td>
+&lt;td>监测空气温度.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_GRAVITY&lt;/td>
+&lt;td>软件 硬件&lt;/td>
+&lt;td>测量x、y、z轴的重力加速度(m/s&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->).&lt;/td>
+&lt;td>动作检测(摇动、倾斜等).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_GYROSCOPE&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量x、y、z轴的旋转(rad/s).&lt;/td>
+&lt;td>旋转检测(自旋、翻面等).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_LIGHT&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量环境光亮度(lx).&lt;/td>
+&lt;td>控制屏幕亮度.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_LINEAR_ACCELERATION&lt;/td>
+&lt;td>软件 硬件&lt;/td>
+&lt;td>测量x、y、z轴的加速度(不包括重力加速度，m/s&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->).&lt;/td>
+&lt;td>监测某一轴上的加速度.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_MAGNETIC_FIELD&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量x、y、z轴的环境地磁场(μT).&lt;/td>
+&lt;td>指南针.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_PRESSURE&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量环境气压(hP、mbar).&lt;/td>
+&lt;td>监测气压变化.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_PROXIMITY&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量物体距离设备屏幕的距离(cm).&lt;/td>
+&lt;td>打电话时手机的位置.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_RELATIVE_HUMIDITY&lt;/td>
+&lt;td>硬件&lt;/td>
+&lt;td>测量相对环境湿度(%).&lt;/td>
+&lt;td>监测露点以及绝对、相对湿度.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TYPE_ROTATION_VECTOR&lt;/td>
+&lt;td>软件 硬件&lt;/td>
+&lt;td>通过提供三个方向的旋转向量来测量设备的旋转.&lt;/td>
+&lt;td>动作和旋转检测.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="位置信息">位置信息&lt;/h2>
+&lt;p>手机的位置信息对于应用而言非常重要，甚至由此衍生出了&lt;a href="https://en.wikipedia.org/wiki/Location-based_service">LBS&lt;/a>。通过Android设备我们可以获取当前位置信息，并根据位置信息对App进行动态改变。&lt;/p>
+&lt;p>要使用位置信息，需要申请位置信息的权限：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre class="chroma">&lt;code class="language-xml" data-lang="xml">&lt;span class="nt">&amp;lt;manifest&lt;/span> &lt;span class="na">xmlns:android=&lt;/span>&lt;span class="s">&amp;#34;http://schemas.android.com/apk/res/android&amp;#34;&lt;/span>
+&lt;span class="na">package=&lt;/span>&lt;span class="s">&amp;#34;com.google.android.gms.location.sample.basiclocationsample&amp;#34;&lt;/span> &lt;span class="nt">&amp;gt;&lt;/span>
+&lt;span class="nt">&amp;lt;uses-permission&lt;/span> &lt;span class="na">android:name=&lt;/span>&lt;span class="s">&amp;#34;android.permission.ACCESS_COARSE_LOCATION&amp;#34;&lt;/span>&lt;span class="nt">/&amp;gt;&lt;/span>
+&lt;span class="nt">&amp;lt;/manifest&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>位置信息可以结合&lt;a href="http://lbsyun.baidu.com/index.php?title=androidsdk">百度地图&lt;/a>或者&lt;a href="https://lbs.amap.com/">高德地图&lt;/a>来实现更丰富的功能。&lt;/p>
+&lt;h2 id="作业">作业&lt;/h2>
+&lt;p>为你的应用添加传感器或者位置信息支持。&lt;/p></description></item><item><title>Android架构</title><link>https://mi.zjgsu.xyz/2020/10/27/android-architecture/</link><pubDate>Tue, 27 Oct 2020 13:40:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/27/android-architecture/</guid><description>&lt;p>Android框架具有相当大的自由度，我们可以根据不同的方式来组合和构建代码。但是这种自由度也可能导致代码的极度混乱，从而使得测试、维护和扩展应用程序非常困难。因此，人们提出了各种Android的代码架构。现有的架构有很多种，学习起来也很麻烦，Google专门创建了一个项目&lt;a href="https://github.com/googlesamples/android-architecture">Android Architecture Blueprints&lt;/a>，用于展示不同的架构并提供了示例代码，是学习Android架构的重要参考。常见的几种架构：&lt;/p>
+&lt;h2 id="mvp">&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvp/">MVP&lt;/a>&lt;/h2>
+&lt;p>MVP，全称Model-View-Presenter，是由MVC架构演变而来的。两者的主要区别如下：&lt;/p>
+&lt;p>&lt;img src="./mvc_mvp.jpg" alt="MVC vs MVP">&lt;/p>
+&lt;p>MVP中，三者的主要作用：&lt;/p>
+&lt;ul>
+&lt;li>View是视图层，负责数据的展示，提供界面、用户交互。Android中通常将Activity或者Fragment作为View层。&lt;/li>
+&lt;li>Model是数据层，这里不仅仅是数据模型，还包括数据的存取，如数据库的读写、网络数据请求等。&lt;/li>
+&lt;li>Presenter是连接View层与Model层的桥梁，并对业务逻辑进行处理。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="./mvp.png" alt="MVP_img">&lt;/p>
+&lt;p>在MVP架构中，Model、View无法直接交互。Presenter层从Model层获得所需要的数据，进行一些适当的处理后交由View层进行显示。这样通过Presenter将View与Model进行隔离，使得View和Model之间不存在耦合，同时也将业务逻辑从View中抽离。&lt;/p>
+&lt;h2 id="clean">&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvp-clean/">Clean&lt;/a>&lt;/h2>
+&lt;p>Clean架构提出了如下准则：&lt;/p>
+&lt;ul>
+&lt;li>框架独立。架构不依赖于一些满载功能的软件库。&lt;/li>
+&lt;li>可测试性。&lt;/li>
+&lt;li>UI独立，在不改变系统其余部分的情况下完成对UI的简易更改。&lt;/li>
+&lt;li>数据库独立，业务规则不绑定与某个具体的数据库当中，可以随意更换数据库的具体实现：比如说从SQL换到BigTable，这种情况不会对业务规则产生影响。&lt;/li>
+&lt;li>外部机制独立，业务规则完全不知道外层的事情。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="./mvp_clean.jpg" alt="mvp_clean">&lt;/p>
+&lt;p>图中几个名词的含义：&lt;/p>
+&lt;ul>
+&lt;li>Entities：代表App的业务对象&lt;/li>
+&lt;li>Use Cases：编排数据从 Entity 入或出的流，也叫交互器(Interactors)&lt;/li>
+&lt;li>Presenters: 把原来方便 Use Cases 或者 Entity 使用的数据结构转换成需要的形式。Presenters 和 Controllers 都属于这里。&lt;/li>
+&lt;li>External Interfaces：处理细节的地方：UI、工具（tools）、框架（framework）等&lt;/li>
+&lt;/ul>
+&lt;p>此外，还有&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvp-dagger/">Dagger&lt;/a>、&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvp-rxjava/">RxJava&lt;/a>、&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvvm-databinding/">databinding&lt;/a>、&lt;a href="https://github.com/googlesamples/android-architecture/tree/todo-mvvm-live/">mvvm-live&lt;/a>等架构，它们都是结合特定的库或者部件来使用的，可以具体参考样例代码。&lt;/p></description></item><item><title>Android第三方库</title><link>https://mi.zjgsu.xyz/2020/10/20/android-thirdparty/</link><pubDate>Tue, 20 Oct 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/20/android-thirdparty/</guid><description>&lt;p>在进行Android开发时（iOS也是类似），通常要用到第三方库。这些第三方库既包含&lt;a href="https://github.com/wasabeef/awesome-android-libraries">一般的库&lt;/a>，也包含&lt;a href="https://github.com/wasabeef/awesome-android-ui">第三方的UI库&lt;/a>。在选择库的时候，尽量选择那些用户较多、文档齐全的。可以参考一下这份&lt;a href="https://www.jianshu.com/p/4c28321def41">App常用第三方库整理
 &lt;/a>。&lt;/p>
 &lt;p>对于C/C++写的库，可以使用&lt;a href="https://developer.android.com/ndk/">NDK&lt;/a>将其集成到系统中。这在人工智能、图像处理、计算机视觉等领域非常普遍。&lt;/p></description></item><item><title>UI/UX设计</title><link>https://mi.zjgsu.xyz/2020/10/20/ui-ux/</link><pubDate>Tue, 20 Oct 2020 13:40:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/20/ui-ux/</guid><description>&lt;p>UI/UX设计不只是设计网站或者App的界面，还要分析用户的需求以及已有的系统，对交互方式、布局、界面等各个部分进行设计。对于初学者，可以从分析已有系统开始。&lt;/p>
 &lt;p>关于设计的一些原则以及所需的一些资源，可以参考&lt;a href="https://github.com/gztchan/awesome-design">Awesome Design&lt;/a>。&lt;/p>
