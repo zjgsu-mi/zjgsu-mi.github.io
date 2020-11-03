@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 27 Oct 2020 18:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>传感器</title><link>https://mi.zjgsu.xyz/2020/10/27/sensors/</link><pubDate>Tue, 27 Oct 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/27/sensors/</guid><description>&lt;p>移动设备和PC相比，具有丰富的传感器可以用，在开发过程中适当地应用这些传感器可以使得你的App功能更加丰富、使用起来更方便。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 03 Nov 2020 13:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>系统部署</title><link>https://mi.zjgsu.xyz/2020/11/03/deployment/</link><pubDate>Tue, 03 Nov 2020 13:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/11/03/deployment/</guid><description>&lt;p>在移动互联网应用中，服务端通常需要部署到大量不同软硬件配置的机器上，同时系统本身也有这大量的外部依赖，这使得部署的复杂度日渐提高。&lt;/p>
+&lt;h2 id="配置管理">配置管理&lt;/h2>
+&lt;p>配置管理（英语：Configuration Management，简称 CM）是一个创建系统工程的过程，用来创建与维持一个产品，让这个产品的性能、功能，以及它所要求的物理特性，在它的生命周期中，都能保持稳定与一致性。&lt;/p>
+&lt;p>对于复杂的部署环境，可以使用&lt;a href="https://www.ansible.com">Ansible&lt;/a>、&lt;a href="https://www.chef.io">Chef&lt;/a>、&lt;a href="https://puppet.com">Puppet&lt;/a>之类的配置管理软件来对部署的节点进行配置，以满足系统的运行。&lt;/p>
+&lt;h2 id="虚拟机">虚拟机&lt;/h2>
+&lt;p>配置管理虽然部分解决了复杂环境的部署，但配置起来也相当麻烦，并且难以保证开发环境和部署环境的一致性。另一种方式是通过虚拟机来开发和部署系统，这样可以保证开发和部署过程使用的是相同的环境。&lt;/p>
+&lt;p>&lt;a href="https://www.vagrantup.com">Vagrant&lt;/a>为开发者提供了一套基于虚拟机的开发工具，使得开发者可以很好地统一开发和部署环境。此外，&lt;a href="https://www.openstack.org">Openstack&lt;/a>以及大部分的云平台都提供了虚拟机的管理功能。&lt;/p>
+&lt;h2 id="容器技术">容器技术&lt;/h2>
+&lt;p>虚拟机的最大缺点在于运行的开销较大，而容器技术——特别是&lt;a href="https://www.docker.com">Docker&lt;/a>的出现弥补了这个缺点。Docker可以看作一个隔离的进程，它的开销和进程相当，同时又能满足用户对各种资源的隔离和虚拟，虽然没有虚拟机功能强大，但在系统部署方面基本满足了大部分需求。&lt;/p>
+&lt;p>基于容器技术最热门的部署工具应该是&lt;a href="https://kubernetes.io/">Kubernetes&lt;/a>了，它借鉴了Google构建系统的丰富经验，实现了一套功能相当强大的自动部署、自动扩展的系统。&lt;/p>
+&lt;p>此外，Docker还有&lt;a href="https://docs.docker.com/compose/">docker-compose&lt;/a>、&lt;a href="https://docs.docker.com/engine/swarm/">docker-swarm&lt;/a>等工具，方便开发和部署。&lt;/p>
+&lt;h2 id="持续集成持续交付持续部署">持续集成、持续交付、持续部署&lt;/h2>
+&lt;p>基于自动测试、部署技术，人们提出了持续集成、持续交付以及持续部署。&lt;/p>
+&lt;p>持续集成强调开发人员提交了新代码之后，立刻进行构建、（单元）测试。根据测试结果，我们可以确定新代码和原有代码能否正确地集成在一起。&lt;/p>
+&lt;p>&lt;img src="./ci.png" alt="持续集成">&lt;/p>
+&lt;p>持续交付在持续集成的基础上，将集成后的代码部署到更贴近真实运行环境的「类生产环境」（production-like environments）中。比如，我们完成单元测试后，可以把代码部署到连接数据库的 Staging 环境中更多的测试。如果代码没有问题，可以继续手动部署到生产环境中&lt;/p>
+&lt;p>&lt;img src="./cdl.png" alt="持续交付">&lt;/p>
+&lt;p>持续部署则是在持续交付的基础上，把部署到生产环境的过程自动化。&lt;/p>
+&lt;p>&lt;img src="./cdp.png" alt="持续部署">&lt;/p></description></item><item><title>传感器</title><link>https://mi.zjgsu.xyz/2020/10/27/sensors/</link><pubDate>Tue, 27 Oct 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/10/27/sensors/</guid><description>&lt;p>移动设备和PC相比，具有丰富的传感器可以用，在开发过程中适当地应用这些传感器可以使得你的App功能更加丰富、使用起来更方便。&lt;/p>
 &lt;h2 id="常用传感器">常用传感器&lt;/h2>
 &lt;p>Android支持的主要传感器如下：&lt;/p>
 &lt;table>
