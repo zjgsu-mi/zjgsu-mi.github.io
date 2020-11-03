@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 03 Nov 2020 13:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>系统部署</title><link>https://mi.zjgsu.xyz/2020/11/03/deployment/</link><pubDate>Tue, 03 Nov 2020 13:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/11/03/deployment/</guid><description>&lt;p>在移动互联网应用中，服务端通常需要部署到大量不同软硬件配置的机器上，同时系统本身也有这大量的外部依赖，这使得部署的复杂度日渐提高。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>移动互联专业实践</title><link>https://mi.zjgsu.xyz/</link><description>Recent content on 移动互联专业实践</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hanjianwei@zjgsu.edu.cn (Jianwei Han)</managingEditor><webMaster>hanjianwei@zjgsu.edu.cn (Jianwei Han)</webMaster><lastBuildDate>Tue, 03 Nov 2020 18:30:00 +0800</lastBuildDate><atom:link href="https://mi.zjgsu.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>云监控</title><link>https://mi.zjgsu.xyz/2020/11/03/cloud-monitoring/</link><pubDate>Tue, 03 Nov 2020 18:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/11/03/cloud-monitoring/</guid><description>&lt;h2 id="监控内容">监控内容&lt;/h2>
+&lt;p>&lt;img src="./monitor.jpg" alt="监控">&lt;/p>
+&lt;ul>
+&lt;li>对象: 应用、服务、设备、设施&lt;/li>
+&lt;li>健康状况&lt;/li>
+&lt;li>性能&lt;/li>
+&lt;/ul>
+&lt;h2 id="为什么要监控">为什么要监控?&lt;/h2>
+&lt;p>&lt;img src="./why.jpg" alt="持续交付">&lt;/p>
+&lt;h2 id="可用的工具">可用的工具&lt;/h2>
+&lt;p>Splunk：Splunk云监控提供你云基础设施的可视性和详细日志分析以及搜索功能。通过监控你技术栈里从应用托管到SaaS的 所有方案，你可以生动描绘出你产品里正在发生的事情。&lt;/p>
+&lt;p>AppDynamics：作为真正的APM， AppDynamics聚焦于优化你云应用的性能。基于许多产品和服务，AppDynamics可以帮你进行终端用户监控，基础设施可视化，商业智能，与整体服务可靠性监控。&lt;/p>
+&lt;p>New Relic:动态地、 持续集成云环境， New Relic可以帮你监控应用和基础设施。无论你运行的是一个简单架构或使用的是容器，微服务，serverless函数式，New Rlic可以帮你解决云监控的需求。&lt;/p>
+&lt;p>Solarwinds：Solarwinds 云给你一个关于你云基础设施，应用和整体数字化情况的中心化大图。识别你系统的缺陷点并可构造一个更好的集成，建壮的使用Solarwinds的基于云的解决方案。&lt;/p>
+&lt;p>Amazon CloudWatch：当你使用AWS，Amazon CloudWatch 是一个首选解决方案。它是专门为AWS的云化应用打造的监控，你可以使用它监控基础设施，平台和应用。&lt;/p></description></item><item><title>系统部署</title><link>https://mi.zjgsu.xyz/2020/11/03/deployment/</link><pubDate>Tue, 03 Nov 2020 13:30:00 +0800</pubDate><author>hanjianwei@zjgsu.edu.cn (Jianwei Han)</author><guid>https://mi.zjgsu.xyz/2020/11/03/deployment/</guid><description>&lt;p>在移动互联网应用中，服务端通常需要部署到大量不同软硬件配置的机器上，同时系统本身也有这大量的外部依赖，这使得部署的复杂度日渐提高。&lt;/p>
 &lt;h2 id="配置管理">配置管理&lt;/h2>
 &lt;p>配置管理（英语：Configuration Management，简称 CM）是一个创建系统工程的过程，用来创建与维持一个产品，让这个产品的性能、功能，以及它所要求的物理特性，在它的生命周期中，都能保持稳定与一致性。&lt;/p>
 &lt;p>对于复杂的部署环境，可以使用&lt;a href="https://www.ansible.com">Ansible&lt;/a>、&lt;a href="https://www.chef.io">Chef&lt;/a>、&lt;a href="https://puppet.com">Puppet&lt;/a>之类的配置管理软件来对部署的节点进行配置，以满足系统的运行。&lt;/p>
