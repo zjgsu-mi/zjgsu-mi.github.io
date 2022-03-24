@@ -1,13 +1,17 @@
 ---
 author: 韩建伟
 title:  "软件架构"
-date:   2021-09-07
+date:   2022-03-11
 ---
 
+# 架构的演化
 
-# 架构
+![](software-architecture-evolution.png){ width="80%" }
 
-![REST-based architecture](software_arch.gif){ width="80%" }
+
+# RESTful架构
+
+![](software_arch.png){ width="70%" }
 
 # RESTful
 
@@ -16,8 +20,7 @@ date:   2021-09-07
 
 # 数据库
 
-- [关系数据库][rdb]
-- [NoSQL][]
+![](nosql_vs_sql.jpeg){ width="70%" }
 
 # 关系数据库
 
@@ -58,7 +61,8 @@ date:   2021-09-07
 
 - [Android][]
 - [iOS][]
-- Web技术: [自适应网页设计][responsive_design]，动态生成原生界面（[React Native][]、[Weex][]）
+- [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+- Web技术: [自适应网页设计][responsive_design]，动态生成原生界面（[React Native][]、[Weex][]、[uni-app][]）
 
 # Web开发
 
@@ -74,6 +78,12 @@ date:   2021-09-07
 - [Bmob](https://www.bmob.cn)
 - [Firebase][]
 - [Parse][]
+
+# 本周任务
+
+- 确定前端、后端的技术方案
+- 完成前后端的模块设计
+- 完成上述设计方案的文档及演示幻灯片(可用marp)
 
 [android]: https://developer.android.com/?hl=zh-cn
 [angular]: https://angular.io/
@@ -123,3 +133,4 @@ date:   2021-09-07
 [tornado]: http://www.tornadoweb.org/en/stable/
 [vue]: https://cn.vuejs.org/index.html
 [weex]: https://weex.apache.org/cn/guide/
+[uni-app]: https://github.com/dcloudio/uni-app

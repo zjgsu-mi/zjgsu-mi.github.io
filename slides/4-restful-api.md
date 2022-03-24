@@ -1,7 +1,7 @@
 ---
 author: 韩建伟
 title:  "RESTful API"
-date:   2021-09-13
+date:   2022-03-18
 ---
 
 # RESTful架构
@@ -31,6 +31,7 @@ REST = Representational State Transfer
 
 # 测试
 
+- [ApiFox](https://www.apifox.cn)
 - [Postman][]
 - [httpie][]
 
@@ -51,6 +52,10 @@ REST = Representational State Transfer
 
 - 将应用程序分解为一组松耦合的服务
 - 服务间通过RESTful API及类似技术进行通信
+
+# 本周作业
+
+- 用ApiFox完成项目API的设计
 
 [awesome rest]: https://github.com/marmelab/awesome-rest
 [github api]: https://developer.github.com/v3/?
